@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* addCustomer.css */
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box-container {
+    width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+	padding-left: 100px;
+}
+
+.left-card, .right-card {
+   
+    width: 50%; /* Adjust as needed, leaving some space for margin/padding */
+    box-sizing: border-box;
+}
+.left-card div{
+	 display: inline-block; /* Use flexbox to arrange children horizontally */
+   
+}
+
+.right-card div{
+	 display: inline-block; /* Use flexbox to arrange children horizontally */
+}
+
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #3498db;
+}
+
+.down-center {
+    width: 200px;
+    text-align: center;
+   
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    font-size: 30px;
+     margin-top: 310px; /* Adjust margin-top as needed */
+     margin-left: -1070px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2078b5;
+    transform: scale(1.05);
+}
